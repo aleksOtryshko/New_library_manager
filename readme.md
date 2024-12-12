@@ -87,12 +87,7 @@ library_manager/
 │
 ├── application/
 │   ├── __init__.py
-│   ├── library_service.py
-│
-├── presentation/
-│   ├── __init__.py
 │   ├── library_app.py
-│
 ├── tests/
 │   ├── __init__.py
 │   ├── test_book.py
@@ -104,19 +99,4 @@ library_manager/
 ├── .gitignore
 ├── documentation.rtf
 ├── README.md
-
-domain/
-Содержит основные сущности и агрегаты домена:
-
-infrastructure/
-Содержит репозитории для работы с данными:
-
-application/
-Содержит сервисы, предоставляющие бизнес-логику:
-
-presentation/
-Содержит пользовательский интерфейс приложения:
-
-tests/
-Содержит тесты для проверки корректности работы приложения:
 
