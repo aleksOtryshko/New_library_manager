@@ -66,31 +66,4 @@ python -m unittest discover -s tests
 
 
 
-Структура проекта
-
-library_manager/
-│
-├── domain/
-│   ├── __init__.py
-│   ├── book.py
-│   ├── library.py
-│
-├── infrastructure/
-│   ├── __init__.py
-│   ├── file_repository.py
-│
-├── application/
-│   ├── __init__.py
-│   ├── library_app.py
-├── tests/
-│   ├── __init__.py
-│   ├── test_book.py
-│   ├── test_library.py
-│   ├── test_file_repository.py
-│   ├── test_library_service.py
-│
-├── main.py
-├── .gitignore
-├── documentation.rtf
-├── README.md
 
